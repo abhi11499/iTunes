@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+  background-color: white;
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4a494b;
+}
+.container {
+  align-items: center;
+  display: flex;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+
+  /* padding: 100px;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px; */
+}
+
+.SearchBox {
+  /* margin: 11px;
+  text-align: center;
+  padding: 12px;
+  border: 0.5px solid;
+  border-radius: 10px;
+  width: 50%;
+  display: flex1;
+  flex-wrap: wrap; */
+  width: 100%;
+  position: relative;
+  height: 50px;
+}
+.card-body {
+  overflow-y: scroll;
+}
